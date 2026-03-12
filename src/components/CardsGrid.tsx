@@ -64,7 +64,7 @@ const CardsGrid = () => {
       href: "https://www.facebook.com/YOUR_FACEBOOK_PAGE",
     },
     {
-      icon: <TikTok className="w-8 h-8" strokeWidth={1.6} />,
+      icon: <Youtue className="w-8 h-8" strokeWidth={1.6} />,
       iconBgColor: "bg-card-icon-youtube",
       title: "تيكتوك",
       description: "شاهد فيديوهات المنتجات والمراجعات والعروض.",

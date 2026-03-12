@@ -45,7 +45,7 @@ const CardsGrid = () => {
       title: "سناب شات",
       description: "تابع سناباتنا اليومية والعروض الخاصة.",
       buttonText: "افتح سناب",
-      href: "https://www.snapchat.com/add/YOUR_SNAP_USERNAME",
+      href: "https://www.snapchat.com/add/eiffelstores.sa?share_id=DyziFdzUrKc&locale=ar-MA",
     },
     {
       icon: <Instagram className="w-8 h-8" strokeWidth={1.6} />,
@@ -53,7 +53,7 @@ const CardsGrid = () => {
       title: "إنستجرام",
       description: "أحدث العروض والمنتجات وتغطيات المتجر.",
       buttonText: "افتح إنستجرام",
-      href: "https://www.instagram.com/YOUR_INSTAGRAM_USERNAME",
+      href: "https://www.instagram.com/eiffelstores.sa?igsh=bGRjMTF4MWtmeGk4",
     },
     {
       icon: <Facebook className="w-8 h-8" strokeWidth={1.6} />,
@@ -64,12 +64,12 @@ const CardsGrid = () => {
       href: "https://www.facebook.com/YOUR_FACEBOOK_PAGE",
     },
     {
-      icon: <Youtube className="w-8 h-8" strokeWidth={1.6} />,
+      icon: <TikTok className="w-8 h-8" strokeWidth={1.6} />,
       iconBgColor: "bg-card-icon-youtube",
-      title: "يوتيوب",
+      title: "تيكتوك",
       description: "شاهد فيديوهات المنتجات والمراجعات والعروض.",
-      buttonText: "افتح يوتيوب",
-      href: "https://www.youtube.com/@YOUR_CHANNEL",
+      buttonText: "افتح تيكتوك",
+      href: "https://www.tiktok.com/@eiffelstores.sa?_r=1&_t=ZS-94TLpU7T1CD",
     },
     {
       icon: <Mail className="w-8 h-8" strokeWidth={1.6} />,
@@ -77,7 +77,7 @@ const CardsGrid = () => {
       title: "البريد الإلكتروني",
       description: "راسلنا لأي استفسار أو عروض خاصة.",
       buttonText: "إرسال بريد",
-      href: "mailto:yourmail@example.com",
+      href: "eiffelstores.sa@gmail.com",
     },
  {
   icon: <ShoppingBag className="w-8 h-8" strokeWidth={1.6} />,

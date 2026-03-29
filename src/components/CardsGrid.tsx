@@ -84,7 +84,7 @@ const CardsGrid = () => {
     },
     {
   icon: <Music2 className="w-8 h-8" strokeWidth={1.6} />, // أيقونة مناسبة لتيك توك
-  iconBgColor: "bg-card-icon-tiktok",
+  iconBgColor: "bg-black",
   title: "تيك توك",
   description: "شاهد فيديوهات سريعة عن المنتجات والعروض والتجارب.",
   buttonText: "افتح تيك توك",

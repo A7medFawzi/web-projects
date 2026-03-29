@@ -66,10 +66,10 @@ const CardsGrid = () => {
     {
       icon: <Youtube className="w-8 h-8" strokeWidth={1.6} />,
       iconBgColor: "bg-card-icon-youtube",
-      title: "تيكتوك",
+      title: "يوتيوب",
       description: "شاهد فيديوهات المنتجات والمراجعات والعروض.",
-      buttonText: "افتح تيكتوك",
-      href: "https://www.tiktok.com/@eiffelstores.sa?_r=1&_t=ZS-94TLpU7T1CD",
+      buttonText: "افتح يوتيوب",
+      href: "https://youtube.com/channel/UCM2oEZV3SrQHrB8_JwLwF5w?si=-_QB1ZwZpKiDX-cI",
     },
     {
       icon: <Mail className="w-8 h-8" strokeWidth={1.6} />,
@@ -79,6 +79,14 @@ const CardsGrid = () => {
       buttonText: "إرسال بريد",
       href: "eiffelstores.sa@gmail.com",
     },
+    {
+  icon: <Music2 className="w-8 h-8" strokeWidth={1.6} />, // أيقونة مناسبة لتيك توك
+  iconBgColor: "bg-card-icon-tiktok",
+  title: "تيك توك",
+  description: "شاهد فيديوهات سريعة عن المنتجات والعروض والتجارب.",
+  buttonText: "افتح تيك توك",
+  href: "https://www.tiktok.com/@yourusername",
+},
  {
   icon: <ShoppingBag className="w-8 h-8" strokeWidth={1.6} />,
   iconBgColor: "bg-card-icon-plants",

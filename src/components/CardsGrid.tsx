@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { MapPin, MessageCircle, Phone, ShoppingBag, Instagram, Facebook, Youtube, Mail, Ghost, Clock } from "lucide-react";
+import { 
+  MapPin, MessageCircle, Phone, ShoppingBag, 
+  Instagram, Facebook, Youtube, Mail, Ghost, Clock, Music2 
+} from "lucide-react";
 import LinkCard from "./LinkCard";
 import WorkingHoursModal from "./WorkingHoursModal";
 
@@ -77,7 +80,7 @@ const CardsGrid = () => {
       title: "البريد الإلكتروني",
       description: "راسلنا لأي استفسار أو عروض خاصة.",
       buttonText: "إرسال بريد",
-      href: "eiffelstores.sa@gmail.com",
+      href: "mailto:eiffelstores.sa@gmail.com",
     },
     {
   icon: <Music2 className="w-8 h-8" strokeWidth={1.6} />, // أيقونة مناسبة لتيك توك
@@ -85,7 +88,7 @@ const CardsGrid = () => {
   title: "تيك توك",
   description: "شاهد فيديوهات سريعة عن المنتجات والعروض والتجارب.",
   buttonText: "افتح تيك توك",
-  href: "https://www.tiktok.com/@yourusername",
+  href: "https://www.tiktok.com/@eiffelstores.sa?_r=1&_t=ZS-94TLpU7T1CD",
 },
  {
   icon: <ShoppingBag className="w-8 h-8" strokeWidth={1.6} />,

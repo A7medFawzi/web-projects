@@ -83,7 +83,16 @@ const CardsGrid = () => {
       href: "mailto:eiffelstores.sa@gmail.com",
     },
     {
-  icon: <Music2 className="w-8 h-8" strokeWidth={1.6} />, // أيقونة مناسبة لتيك توك
+  icon: (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="white"
+    className="w-8 h-8"
+  >
+    <path d="M12.75 2h2.25c.138 1.295.84 2.483 1.93 3.327A5.54 5.54 0 0021 6.5v2.25a7.8 7.8 0 01-4.5-1.5v6.75a6 6 0 11-6-6c.276 0 .545.02.81.06v2.3a3.75 3.75 0 103.69 3.69V2z"/>
+  </svg>
+),
   iconBgColor: "bg-black",
   title: "تيك توك",
   description: "شاهد فيديوهات سريعة عن المنتجات والعروض والتجارب.",
